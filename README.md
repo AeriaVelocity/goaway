@@ -29,7 +29,8 @@ in turn makes you so annoyed that you want to tell it to "go away".
 ## How it works
 
 Go Away is a Rust program, which is written in C. Makes sense, right? GitHub
-Copilot is VERY intelligent.
+Copilot is VERY intelligent. (For legal reasons I must clarify this is a joke,
+because the former isn't possible and I refuse to pay for the latter.)
 
 Go Away leverages GTK4 to display information in a graphical format that should
 look pretty but in practice doesn't really look that great.
