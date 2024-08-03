@@ -2,6 +2,40 @@
 
 There is no README here. Go away.
 
+```rust
+unsafe {
+    gtk::init().expect("Failed to initialize GTK");
+    // Oh, damn it. Not again.
+
+    if gtk != gtk3 && gtk == gtk4 {
+        shutup();
+    }
+
+    fn shutup() -> ! {
+        loop {
+            gtk::this_function_does_not_exist();
+        }
+    }
+
+    // I suppose I should actually talk about what Go Away is now, huh.
+}
+```
+
+## What Go Away is
+
+Go Away is a GTK4 utility which provides unhelpful information on files, which
+in turn makes you so annoyed that you want to tell it to "go away".
+
+## How it works
+
+Go Away is a Rust program, which is written in C. Makes sense, right? GitHub
+Copilot is VERY intelligent.
+
+## Dependencies
+
+- gtk4
+- That's about it
+
 ## References
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
