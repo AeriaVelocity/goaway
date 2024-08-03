@@ -31,18 +31,21 @@ in turn makes you so annoyed that you want to tell it to "go away".
 Go Away is a Rust program, which is written in C. Makes sense, right? GitHub
 Copilot is VERY intelligent.
 
+Go Away leverages GTK4 to display information in a graphical format that should
+look pretty but in practice doesn't really look that great.
+
 ## Dependencies
 
-- gtk4
+- `gtk4` 0.9.0+
 - That's about it
 
 ## References
 
-- [The Rust Programming Language](https://doc.rust-lang.org/book/)
-- [Crate gtk4 Docs](https://docs.rs/gtk4/latest/gtk4/)
-- [Rust bindings of GTK 4](https://github.com/gtk-rs/gtk4-rs)
-- [My fricked up mind](https://github.com/AeriaVelocity/goaway)
-- [YouTube](https://www.youtube.com) (didn't help with programming, it was just for background noise)
+- [`&"The Rust Programming Language"`](https://doc.rust-lang.org/book/)
+- [`&crate_docs("gtk4")`](https://docs.rs/gtk4/latest/gtk4/)
+- [`&GTK4::Rust::new()`](https://github.com/gtk-rs/gtk4-rs)
+- [`&Self`](https://github.com/AeriaVelocity/goaway)
+- [`&YouTube`](https://www.youtube.com) (didn't help with programming, it was just for background noise)
 
 ## Commendations
 
